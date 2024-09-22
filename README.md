@@ -18,8 +18,6 @@ Created interactive Power BI dashboards to visualize insights and support data-d
 
 Excel Power Pivot: For data preparation, transformation, and initial analysis.
 
-Power BI: For creating interactive dashboards and visualizing insights.
-
 ## Dataset
 The dataset used for this project is anonymized to protect patient privacy and does not contain any personally identifiable information (PII). The data includes:
 
