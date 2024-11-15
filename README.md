@@ -52,7 +52,9 @@ Ward U shows the lowest admissions with 3 extra rooms—consider reallocating re
 
 ## Recommendations
 Optimize resource allocation: Reallocate resources from underutilized wards (e.g., Ward P) to high-demand wards (e.g., Ward R).
+
 Focus on preventive care: Target trauma prevention programs for the 41-50 age group and improve emergency preparedness for the 51-60 age group.
+
 Increase efficiency: Implement strategies from Ward U to reduce patient stay durations in high-demand wards like Ward S.
 
 # Acknowledgements
