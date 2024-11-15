@@ -21,12 +21,12 @@ Excel Power Pivot: For data preparation, transformation, and initial analysis.
 ## Dataset
 The dataset used for this project is anonymized to protect patient privacy and does not contain any personally identifiable information (PII). The data includes:
 
-![image](https://github.com/user-attachments/assets/4b0511f6-e37e-44f8-97a8-a8833a99dc81)
-
 Patient admissions by department and ward.
 Age groups and type of admission (emergency, trauma, urgent).
 Resource allocation: Number of available rooms and admissions.
 Length of stay by severity of illness.
+
+![image](https://github.com/user-attachments/assets/4b0511f6-e37e-44f8-97a8-a8833a99dc81)
 
 ## Key Insights
 Gynecology handles over 45,000 trauma and 40,000 emergency cases—consider allocating more resources to this department to manage the high volume of critical cases.
