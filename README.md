@@ -27,15 +27,20 @@ Resource allocation: Number of available rooms and admissions.
 Length of stay by severity of illness.
 
 ## Key Insights
-Gynecology handles over 45,000 trauma and 40,000 emergency cases, requiring more resources to handle its critical case volume.
+Gynecology handles over 45,000 trauma and 40,000 emergency cases—consider allocating more resources to this department to manage the high volume of critical cases.
+
 ![image](https://github.com/user-attachments/assets/9f157448-c83f-4791-b7f2-6cb2a9a5cb43)
 
-Trauma cases peak in the 41-50 age group, and emergency cases are most common in the 51-60 age group
+Trauma cases peak at over 25,000 in the 41-50 age group, while emergency cases are also highest in the 41-50 age group with 16,875 admissions—focus on trauma prevention and emergency preparedness for these age groups (31-60).
+
 ![image](https://github.com/user-attachments/assets/cb3cb632-7562-4448-abc5-b47b0b7aa35b)
+
+Patients with extreme trauma have the longest average stay at 41 days, while emergency and urgent cases average 38 days—consider process improvements to reduce stays for extreme trauma cases.
 
 ![image](https://github.com/user-attachments/assets/e10fc978-79d4-4709-a65d-bf8640dde82b)
 
-Ward S has the longest average stay at 43 days, indicating it may handle more complex cases, while Ward U has the shortest stay at 25 days.
+Ward S has the longest average stay at 43 days, while Ward U has the shortest at 25 days—explore applying Ward U's efficiency strategies to reduce stay durations in Ward S.
+
 ![image](https://github.com/user-attachments/assets/79f003f8-f058-4423-80c5-e8d2b0b1862a)
 
 Ward R has 90,538 admissions and 3 extra rooms, while Ward P has 3,376 admissions with the most extra rooms (5). 
