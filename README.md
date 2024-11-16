@@ -2,6 +2,7 @@
 
 ## Table of Contents
 - [Project Overview](#project-overview)
+- [Executive Summary](#excutive-summary)
 - [Objectives](#objectives)
 - [Tools and Technologies](#tools-and-technologies)
 - [Dataset](#dataset)
@@ -14,6 +15,12 @@
 ## Project Overview
 
 This project analyzes hospital admissions, resource utilization, and patient outcomes to provide actionable insights for optimizing hospital operations. The data was visualized using Excel's Power Pivot, focusing on critical areas such as patient admissions, resource allocation, and length of stay.
+
+## Executive Summary
+
+The Hospital Operations & Patient Outcomes Analysis project focuses on optimizing hospital resource utilization and improving patient care outcomes. By analyzing hospital admissions, resource allocation, and length of stay, key inefficiencies were identified across wards and departments. The analysis revealed that wards such as Ward R were significantly more crowded, while others, like Ward P, had underutilized resources. Trauma cases were especially prevalent among patients aged 41-50, suggesting a need for enhanced preventive care programs.
+
+Recommendations included reallocating resources from underutilized wards to high-demand areas, focusing on preventive care for high-risk age groups, and applying efficiency strategies from the best-performing wards to others. These actionable insights aimed to streamline hospital operations, enhance patient experiences, and optimize resource use.
 
 ## Objectives
 
