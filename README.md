@@ -59,19 +59,23 @@ The dataset used for this project is anonymized to protect patient privacy and d
 ```dax
 // Total Admissions
 Total Admissions = COUNTROWS(Hospital_Data)
-
+```
+```dax
 // Emergency Patients
 Emergency Patients = CALCULATE(COUNTROWS(Hospital_Data), Hospital_Data[Type of Admission] = "Emergency")
-
+```
+```dax
 // Trauma Patients
 Trauma Patients = CALCULATE(COUNTROWS(Hospital_Data), Hospital_Data[Type of Admission] = "Trauma")
-
+```
+```dax
 // Urgent Patients
 Urgent Patients = CALCULATE(COUNTROWS(Hospital_Data), Hospital_Data[Type of Admission] = "Urgent")
-
+```
+```dax
 // Average Stay Duration
 Average Stay Duration = AVERAGE(Hospital_Data[Average_Stay])
-
+```
 
 ## Key Insights
 Gynecology handles over 45,000 trauma and 40,000 emergency cases—consider allocating more resources to this department to manage the high volume of critical cases.
