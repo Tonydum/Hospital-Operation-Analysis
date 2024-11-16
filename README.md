@@ -2,7 +2,7 @@
 
 ## Table of Contents
 - [Project Overview](#project-overview)
-- [Executive Summary](#excutive-summary)
+- [Executive Summary](#executive-summary)
 - [Objectives](#objectives)
 - [Tools and Technologies](#tools-and-technologies)
 - [Dataset](#dataset)
