@@ -1,18 +1,15 @@
-# Hospital Operations & Patient Outcomes Dashboard
+# Hospital Operations & Patient Outcomes Analysis
 
 ## Project Overview
 
 This project analyzes hospital admissions, resource utilization, and patient outcomes to provide actionable insights for optimizing hospital operations. The data was visualized using Excel Power Pivot and Power BI, focusing on critical areas such as patient admissions, resource allocation, and length of stay.
 
-## Key Features
+## Objectives
 
-Analyzed hospital admissions by age group, department, and type of admission (emergency, trauma, urgent).
-
-Assessed resource allocation by comparing admissions and available rooms across wards.
-
-Investigated the severity of illness and its impact on the average length of stay.
-
-Created interactive Power BI dashboards to visualize insights and support data-driven decision-making.
+- Analyze Resource Utilization: Understand how hospital resources, such as staff and beds, are being utilized across different wards to identify inefficiencies.
+- Identify Factors Impacting Patient Outcomes: Determine the key factors that influence patient outcomes, including resource allocation, length of stay, and emergency preparedness.
+- Provide Actionable Insights for Improvement: Generate insights into operational bottlenecks, underutilized resources, and potential areas for preventive measures.
+- Recommend Strategies to Improve Efficiency: Develop recommendations to enhance hospital operations, reduce patient wait times, and improve overall patient care and satisfaction.
 
 ## Tools and Technologies
 
