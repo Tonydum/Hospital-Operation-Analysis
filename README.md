@@ -30,6 +30,8 @@ This project analyzes hospital admissions, resource utilization, and patient out
 
 The dataset used for this project is anonymized to protect patient privacy and does not contain any personally identifiable information (PII). The data includes:
 
+![image](https://github.com/user-attachments/assets/4b0511f6-e37e-44f8-97a8-a8833a99dc81)
+
 - Patient admissions by department and ward.
 - Age groups and type of admission (emergency, trauma, urgent).
 - Resource allocation: Number of available rooms and admissions.
@@ -52,8 +54,24 @@ The dataset used for this project is anonymized to protect patient privacy and d
   ```excel
   =(Hospital_Data[Stay.1] + Hospital_Data[Stay.2]) / 2
 
+## DAX Calculations
 
-![image](https://github.com/user-attachments/assets/4b0511f6-e37e-44f8-97a8-a8833a99dc81)
+```dax
+// Total Admissions
+Total Admissions = COUNTROWS(Hospital_Data)
+
+// Emergency Patients
+Emergency Patients = CALCULATE(COUNTROWS(Hospital_Data), Hospital_Data[Type of Admission] = "Emergency")
+
+// Trauma Patients
+Trauma Patients = CALCULATE(COUNTROWS(Hospital_Data), Hospital_Data[Type of Admission] = "Trauma")
+
+// Urgent Patients
+Urgent Patients = CALCULATE(COUNTROWS(Hospital_Data), Hospital_Data[Type of Admission] = "Urgent")
+
+// Average Stay Duration
+Average Stay Duration = AVERAGE(Hospital_Data[Average_Stay])
+
 
 ## Key Insights
 Gynecology handles over 45,000 trauma and 40,000 emergency cases—consider allocating more resources to this department to manage the high volume of critical cases.
