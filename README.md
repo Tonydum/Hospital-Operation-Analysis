@@ -1,7 +1,7 @@
 # Hospital Operations & Patient Outcomes Analysis
 
 ## Table of Contents
-- [Project Overview](#project-overview)
+- [Project Background](#project-background)
 - [Executive Summary](#executive-summary)
 - [Objectives](#objectives)
 - [Tools and Technologies](#tools-and-technologies)
@@ -12,9 +12,11 @@
 - [Recommendations](#recommendations)
 - [Acknowledgements](#acknowledgements)
 
-## Project Overview
+## Project Background
 
-This project analyzes hospital admissions, resource utilization, and patient outcomes to provide actionable insights for optimizing hospital operations. The data was visualized using Excel's Power Pivot, focusing on critical areas such as patient admissions, resource allocation, and length of stay.
+Hospitals are often challenged by the need to optimize resource utilization, manage patient flow, and provide quality care, especially in a context of limited resources. Effective management of admissions, patient stay durations, and resource allocation is critical to ensure operational efficiency and optimal patient outcomes. The Hospital Operations & Patient Outcomes Analysis project was initiated to address these challenges by providing a thorough analysis of hospital operations.
+
+The goal was to identify inefficiencies in resource allocation, understand the factors affecting patient outcomes, and develop recommendations to enhance hospital efficiency. By analyzing patient admissions data, resource availability, and patient demographics, the project sought to provide actionable insights that could be leveraged to streamline processes, improve bed management, and allocate resources where they are needed the most.
 
 ## Executive Summary
 
