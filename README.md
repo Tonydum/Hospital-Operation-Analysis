@@ -1,8 +1,17 @@
 # Hospital Operations & Patient Outcomes Analysis
 
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Objectives](#objectives)
+- [Tools and Technologies](#tools-and-technologies)
+- [Dataset](#dataset)
+- [Key Insights](#key-insights)
+- [Recommendations](#recommendations)
+- [Acknowledgements](#acknowledgements)
+
 ## Project Overview
 
-This project analyzes hospital admissions, resource utilization, and patient outcomes to provide actionable insights for optimizing hospital operations. The data was visualized using Excel Power Pivot and Power BI, focusing on critical areas such as patient admissions, resource allocation, and length of stay.
+This project analyzes hospital admissions, resource utilization, and patient outcomes to provide actionable insights for optimizing hospital operations. The data was visualized using Excel's Power Pivot, focusing on critical areas such as patient admissions, resource allocation, and length of stay.
 
 ## Objectives
 
