@@ -57,23 +57,18 @@ The dataset used for this project is anonymized to protect patient privacy and d
 ## DAX Calculations
 
 ```dax
-// Total Admissions
 Total Admissions = COUNTROWS(Hospital_Data)
 ```
 ```dax
-// Emergency Patients
 Emergency Patients = CALCULATE(COUNTROWS(Hospital_Data), Hospital_Data[Type of Admission] = "Emergency")
 ```
 ```dax
-// Trauma Patients
 Trauma Patients = CALCULATE(COUNTROWS(Hospital_Data), Hospital_Data[Type of Admission] = "Trauma")
 ```
 ```dax
-// Urgent Patients
 Urgent Patients = CALCULATE(COUNTROWS(Hospital_Data), Hospital_Data[Type of Admission] = "Urgent")
 ```
 ```dax
-// Average Stay Duration
 Average Stay Duration = AVERAGE(Hospital_Data[Average_Stay])
 ```
 
