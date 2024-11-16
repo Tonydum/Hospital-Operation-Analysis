@@ -5,6 +5,8 @@
 - [Objectives](#objectives)
 - [Tools and Technologies](#tools-and-technologies)
 - [Dataset](#dataset)
+- [Data Transformation](#data-transformation)
+- [DAX Calculations](#dax-calculations)
 - [Key Insights](#key-insights)
 - [Recommendations](#recommendations)
 - [Acknowledgements](#acknowledgements)
@@ -15,22 +17,41 @@ This project analyzes hospital admissions, resource utilization, and patient out
 
 ## Objectives
 
-- Analyze Resource Utilization: Understand how hospital resources, such as staff and beds, are being utilized across different wards to identify inefficiencies.
-- Identify Factors Impacting Patient Outcomes: Determine the key factors that influence patient outcomes, including resource allocation, length of stay, and emergency preparedness.
-- Provide Actionable Insights for Improvement: Generate insights into operational bottlenecks, underutilized resources, and potential areas for preventive measures.
-- Recommend Strategies to Improve Efficiency: Develop recommendations to enhance hospital operations, reduce patient wait times, and improve overall patient care and satisfaction.
+- **Analyze Resource Utilization**: Understand how hospital resources, such as staff and beds, are being utilized across different wards to identify inefficiencies.
+- **Identify Factors Impacting Patient Outcomes**: Determine the key factors that influence patient outcomes, including resource allocation, length of stay, and emergency preparedness.
+- **Provide Actionable Insights for Improvement**: Generate insights into operational bottlenecks, underutilized resources, and potential areas for preventive measures.
+- **Recommend Strategies to Improve Efficiency**: Develop recommendations to enhance hospital operations, reduce patient wait times, and improve overall patient care and satisfaction.
 
 ## Tools and Technologies
 
-Excel Power Pivot: For data preparation, transformation, and initial analysis.
+- **Excel Power Pivot**: For data preparation, transformation, and initial analysis.
 
 ## Dataset
+
 The dataset used for this project is anonymized to protect patient privacy and does not contain any personally identifiable information (PII). The data includes:
 
-Patient admissions by department and ward.
-Age groups and type of admission (emergency, trauma, urgent).
-Resource allocation: Number of available rooms and admissions.
-Length of stay by severity of illness.
+- Patient admissions by department and ward.
+- Age groups and type of admission (emergency, trauma, urgent).
+- Resource allocation: Number of available rooms and admissions.
+- Length of stay by severity of illness.
+
+## Data Transformation
+
+- **Converted Columns to Text Format**: 
+  - Changed the data type of the columns `case_id`, `hospital_code`, and `city_code_hospital` to text.
+  - Changed the data type of the columns `patientid` and `bed grade` to text.
+
+- **Replaced Age Range Values**: 
+  - Replaced the value `"51-60"` with `"51-60 years"` in the age column to make the data more descriptive.
+
+- **Split the 'Stay' Column into Two Parts**: 
+  - Split the `Stay` column into two new columns: `Stay.1` (lower bound) and `Stay.2` (upper bound) based on the hyphen delimiter, preparing the data for further manipulation or calculation.
+
+- **Calculated the Midpoint of Stay Ranges**: 
+  - Created a new column to calculate the midpoint of the stay duration using the formula:
+  ```excel
+  =(Hospital_Data[Stay.1] + Hospital_Data[Stay.2]) / 2
+
 
 ![image](https://github.com/user-attachments/assets/4b0511f6-e37e-44f8-97a8-a8833a99dc81)
 
