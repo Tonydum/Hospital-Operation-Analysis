@@ -3,6 +3,7 @@
 ## Table of Contents
 - [Project Background](#project-background)
 - [Executive Summary](#executive-summary)
+- [Dashboard](#dashboard)
 - [Objectives](#objectives)
 - [Tools and Technologies](#tools-and-technologies)
 - [Dataset](#dataset)
@@ -23,6 +24,10 @@ The goal was to identify inefficiencies in resource allocation, understand the f
 The Hospital Operations & Patient Outcomes Analysis project focuses on optimizing hospital resource utilization and improving patient care outcomes. By analyzing hospital admissions, resource allocation, and length of stay, key inefficiencies were identified across wards and departments. The analysis revealed that wards such as Ward R were significantly more crowded, while others, like Ward P, had underutilized resources. Trauma cases were especially prevalent among patients aged 41-50, suggesting a need for enhanced preventive care programs.
 
 Recommendations included reallocating resources from underutilized wards to high-demand areas, focusing on preventive care for high-risk age groups, and applying efficiency strategies from the best-performing wards to others. These actionable insights aimed to streamline hospital operations, enhance patient experiences, and optimize resource use.
+
+## Dashboard
+
+![Dashboard_Main](https://github.com/user-attachments/assets/527a85e3-0cee-4805-8fad-579f392a6aca)
 
 ## Objectives
 
